@@ -80,7 +80,7 @@ body {
 }
 
 .plan-pricing {
-  color: hsl(224, 23%, 55%);
+  color: var(--neutral-2);
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   align-self: flex-start;
