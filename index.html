@@ -31,19 +31,20 @@
   </head>
 
   <body>
-    <article class="summary__card">
+    <article class="summary__card" role="main">
       <img
         class="summary__illustration"
         src="images/illustration-hero.svg"
         alt="An illustration"
+        role="img"
       />
-      <section class="summary__body">
-        <h2 class="summary__headline">Order Summary</h2>
-        <p class="summary__subhead">
+      <div class="summary__body">
+        <h1 class="summary__headline">Order Summary</h1>
+        <p class="summary__subhead" role="">
           You can now listen to millions of songs, audiobooks, and podcasts on
           any device anywhere you like!
         </p>
-        <div class="plan-info">
+        <div class="plan-info" role="definition">
           <svg
             id="music-icon"
             xmlns="http://www.w3.org/2000/svg"
@@ -62,18 +63,21 @@
 
           <p class="plan-tier">Annual Plan</p>
           <p class="plan-pricing">$59.99/year</p>
-          <a href="#" class="plan-change">Change</a>
+          <a href="#" class="plan-change" role="button">Change</a>
         </div>
-        <a class="action__proceed" href="#">Proceed to Payment</a>
-        <a class="action__cancel" href="#">Cancel Order</a>
-      </section>
+        <a class="action__proceed" href="#" role="button">Proceed to Payment</a>
+        <a class="action__cancel" href="#" role="button">Cancel Order</a>
+      </div>
     </article>
 
-    <div class="attribution">
+    <footer class="attribution" role="contentinfo">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/ayoub-ahabchane"
+        >Ayoub Ahabchane</a
+      >.
+    </footer>
   </body>
 </html>
