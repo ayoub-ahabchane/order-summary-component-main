@@ -2,6 +2,7 @@
   --primary-1: hsl(225, 100%, 94%);
   --primary-2: hsl(245, 75%, 52%);
   --primary-3: hsl(235, 100%, 97%);
+  --primary-4: hsl(245, 100%, 68%);
 
   --neutral-1: hsl(225, 100%, 98%);
   --neutral-2: hsl(224, 23%, 55%);
@@ -113,4 +114,19 @@ body {
   font-weight: 700;
   padding: 1em 0.8em;
   text-decoration: none;
+}
+
+/*Hover effects*/
+
+.plan-change:hover {
+  color: var(--primary-4);
+  text-decoration: none;
+}
+
+.action__proceed:hover {
+  background-color: var(--primary-4);
+}
+
+.action__cancel:hover {
+  color: var(--neutral-3);
 }
