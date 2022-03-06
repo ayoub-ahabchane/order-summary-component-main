@@ -18,6 +18,8 @@ body {
   font-family: "Red Hat Display";
   width: 100vw;
   background-color: var(--primary-1);
+  padding: 0 1rem;
+  box-sizing: border-box;
 }
 
 .summary__card {
@@ -59,9 +61,9 @@ body {
   display: grid;
   border-radius: 0.8em;
   grid-template-columns: max-content 1fr max-content;
-  row-gap: 0.3em;
-  column-gap: 1.2em;
-  padding: 1.5em 1.4em;
+  /* row-gap: 0.3em; */
+  column-gap: 5%;
+  padding: 1.3em 1.3em;
   margin-bottom: 2em;
   background-color: var(--primary-3);
 }
@@ -78,6 +80,7 @@ body {
   align-self: flex-end;
   font-weight: 900;
   color: var(--neutral-3);
+  font-size: 0.9rem;
 }
 
 .plan-pricing {
@@ -85,6 +88,7 @@ body {
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   align-self: flex-start;
+  font-size: 0.9rem;
 }
 
 .plan-change {
@@ -93,6 +97,7 @@ body {
   align-self: center;
   font-weight: 700;
   color: var(--primary-2);
+  font-size: 0.8rem;
 }
 
 .action__proceed {
